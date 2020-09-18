@@ -1,0 +1,15 @@
+{
+    "name": "kh/agent-parser-adapter",
+    "description": "Adapter for parsing userAgent",
+    "type": "library",
+    "require": {
+        "hisorange/browser-detect": "^4.2",
+        "whichbrowser/parser": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kh\\Adapters\\": "src/"
+        }
+    },
+    "license": "MIT"
+}
